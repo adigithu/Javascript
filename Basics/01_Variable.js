@@ -7,3 +7,6 @@ accountPassword="21212121"
 accountCity="Adi"
 let account
 console.table([accountEmail,accountId,accountPassword,accountCity,account])
+/*
+Prefer not to use var because of issue in block scope and functional scope
+*/
