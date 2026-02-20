@@ -24,3 +24,18 @@ const myFunc=function(){
 }
 
 console.log(typeof myFunc)  //function
+
+let myname="Aditya"
+let holder=myname
+holder="Self"
+console.log(myname)
+console.log(holder)  //Here stack concept is used
+
+let user={                //Heap memory concept is used
+    email:"Aditya.com",
+    upi: "user@ybl"
+}
+let usertwo=user
+usertwo.email="Hi@com"
+console.log(user.email)
+console.log(usertwo.email)
