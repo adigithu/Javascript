@@ -61,5 +61,5 @@ console.log(b) //JS
 //JSON structure
 // {
 //     "nam": "Adi",
-//     "cou": "Python"        API in JSON format
+//     "cou": "Python"        API sending the requested data in JSON format
 // }
