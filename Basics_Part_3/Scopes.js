@@ -19,4 +19,24 @@ function one(){
     //console.log(website)
     two()
 }
-one()
+one()         //Inner functions can access the variables of outer functions but vice-versa is not possible
+
+if (true){
+    const username="Adi"
+    if (username==="Adi"){
+        const website=" Parida"
+        console.log(username+website)
+    }
+}
+
+console.log(add(5))
+function add(num){
+    return num+1
+}
+add(5)
+
+// console.log(addTwo(5))         //It will give error
+// const addTwo=function(num){
+//     return num+2
+// }
+// addTwo(5)
