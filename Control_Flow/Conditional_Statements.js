@@ -29,4 +29,3 @@ const debitCard=true
 if (userloggedin && debitCard){          //    ||: OR
     console.log("Granted")
 }
-
